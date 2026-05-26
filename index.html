@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Barışcan Çeken - Yazılım geliştirme, veri bilimi ve yapay zekâ odaklı kişisel portfolyo.">
+    <meta name="theme-color" content="#101820">
+    <title>Barışcan Çeken | Yazılım & Yapay Zekâ</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-shell">
+        <div class="brand-zone">
+          <a class="brand" href="#top" aria-label="Barışcan Çeken ana sayfa">
+            <span class="brand-mark">BÇ</span>
+            <span class="brand-copy">
+              <strong>Barışcan Çeken</strong>
+              <small>AI &amp; Data Portfolio</small>
+            </span>
+          </a>
+        </div>
+        <nav class="site-nav" aria-label="Ana gezinme">
+          <a href="#darg">DARG</a>
+          <a href="#projects">Projeler</a>
+          <a href="#experience">Deneyim</a>
+          <a href="#skills">Beceriler</a>
+          <a href="#contact">İletişim</a>
+        </nav>
+        <a class="header-cta" href="mailto:iletisim@bariscanceken.com">Mail</a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <canvas id="signalCanvas" aria-hidden="true"></canvas>
+        <div class="hero-shade" aria-hidden="true"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Yazılım geliştirme · Veri bilimi · Yapay zekâ</p>
+          <h1 id="hero-title">Barışcan Çeken</h1>
+          <p class="hero-lead">
+            Karadeniz Teknik Üniversitesi Yönetim Bilişim Sistemleri öğrencisiyim. Python, SQL,
+            veri analizi ve yapay zekâ uygulamalarıyla gerçek problemlere çalışan yazılım çözümleri
+            geliştirmeye odaklanıyorum.
+          </p>
+        </div>
+        <aside class="hero-github-panel" aria-label="GitHub aktiviteleri">
+          <p class="activity-panel-kicker">GitHub Activity</p>
+          <a class="github-activity is-loading" id="githubActivity" href="https://github.com/bariscanceken" target="_blank" rel="noopener" aria-live="polite">
+            <span class="activity-dot" aria-hidden="true"></span>
+            <span class="activity-copy">
+              <strong id="githubActivityTitle">Son activity yükleniyor</strong>
+              <small id="githubActivityMeta">github.com/bariscanceken</small>
+            </span>
+          </a>
+          <ul class="activity-list" id="githubActivityList">
+            <li>Aktiviteler yükleniyor</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section class="section intro" aria-labelledby="intro-title">
+        <div class="section-label">Profil</div>
+        <div>
+          <h2 id="intro-title">Veriyi, yazılımı ve hızlı öğrenmeyi aynı hatta topluyorum.</h2>
+          <p>
+            Analitik düşünme, problem çözme ve takım çalışmasıyla projelere katkı sağlamayı
+            hedefliyorum. Yazılım geliştirme alanında güçlü bir temel kurarken öğrendiklerimi
+            veri toplama, modelleme, otomasyon ve yapay zekâ projeleriyle pekiştiriyorum.
+          </p>
+        </div>
+      </section>
+
+      <section class="section project-band" id="darg" aria-labelledby="darg-title">
+        <div class="section-label">TÜBİTAK Projesi</div>
+        <div class="project-copy">
+          <h2 id="darg-title">DARG: Doğal Afet RAG Görüntüleme</h2>
+          <p class="project-subtitle">
+            TÜBİTAK 2209-A kapsamında kabul edilen; deprem anında bölgesel verileri analiz edip
+            yardım sürecini destekleyen RAG tabanlı yapay zekâ asistanı.
+          </p>
+          <p>
+            Proje, afet sonrası ortaya çıkan bilgi kirliliğini azaltmayı ve müdahale ekiplerinin
+            güvenilir bilgiye daha hızlı ulaşmasını amaçlıyor. Müdahale protokolleri, geçmiş afet
+            analizleri, akademik kaynaklar ve bölgesel veriler toplanarak temizleniyor; ardından
+            vektörleştirme ve indeksleme süreçleriyle sorgulanabilir bir bilgi altyapısına dönüştürülüyor.
+          </p>
+          <ul class="project-metrics" aria-label="DARG proje hedefleri">
+            <li>Hedef doğruluk oranı: en az %85</li>
+            <li>Agile/Scrum ile 9 aylık geliştirme planı</li>
+            <li>Açık kaynak paylaşım ve akademik çıktı hedefi</li>
+          </ul>
+        </div>
+        <div class="project-points" aria-label="DARG odak alanları">
+          <article>
+            <span>01</span>
+            <h3>Problem</h3>
+            <p>Deprem sonrası yanlış, eksik ve dağınık bilgiyi azaltarak karar süreçlerine güvenilir bağlam sağlama.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Yöntem</h3>
+            <p>Veri toplama, keşifsel analiz, özellik mühendisliği, vektör veritabanı ve LangChain tabanlı RAG mimarisi.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Ürün</h3>
+            <p>Kullanıcı dostu arayüz, API bağlantıları ve hibrit karar ajanıyla çalışan afet destek asistanı.</p>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>Test ve değerlendirme</h3>
+            <p>Hız, doğruluk, hata oranı ve kullanıcı geri bildirimleriyle sistem performansını iyileştirme.</p>
+          </article>
+          <article>
+            <span>05</span>
+            <h3>Yaygın etki</h3>
+            <p>Ulusal afet dirençliliğine katkı, dezenformasyonla mücadele ve toplumsal dayanışmayı güçlendirme.</p>
+          </article>
+          <article>
+            <span>06</span>
+            <h3>Sürdürülebilirlik</h3>
+            <p>Açık kaynak geliştirme, akademik paylaşım ve yeni proje fikirlerine altyapı oluşturma.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section portfolio-section" id="projects" aria-labelledby="projects-title">
+        <div class="section-label">Projeler</div>
+        <div>
+          <div class="section-heading">
+            <h2 id="projects-title">Üzerinde çalıştığım işler</h2>
+            <p>
+              Veri analizi, yapay zekâ, otomasyon, mobil uygulama ve masaüstü yazılım tarafında
+              geliştirdiğim projelerden bazıları.
+            </p>
+          </div>
+          <div class="portfolio-grid" aria-label="Proje kartları">
+            <article class="portfolio-card">
+              <span class="project-tag">Veri</span>
+              <h3>DataLab</h3>
+              <p>
+                EDA, feature engineering ve regresyon pratiklerini topladığım veri laboratuvarı.
+                Amazon Sales, Google Play, BMW M54B25 ve çalışma saatleri gibi farklı veri setleriyle
+                analiz ve modelleme denemeleri içeriyor.
+              </p>
+              <ul class="project-stack" aria-label="DataLab teknolojileri">
+                <li>Python</li>
+                <li>Jupyter</li>
+                <li>Pandas</li>
+                <li>EDA</li>
+                <li>Regression</li>
+              </ul>
+            </article>
+            <article class="portfolio-card">
+              <span class="project-tag">Otomasyon</span>
+              <h3>Ahtabyte</h3>
+              <p>
+                Obsidian'a günlük log yazmayı aksattığım zamanlardan doğan kişisel verimlilik asistanı.
+                Klavye, pencere ve ekran aktivitelerini toplayıp RAG ile günlük özet üretiyor; PDF ve
+                mobil uygulama üzerinden rapor sunuyor.
+              </p>
+              <ul class="project-stack" aria-label="Ahtabyte teknolojileri">
+                <li>Python</li>
+                <li>PyQt6</li>
+                <li>OpenAI</li>
+                <li>ChromaDB</li>
+                <li>Flask</li>
+                <li>Flutter</li>
+              </ul>
+            </article>
+            <article class="portfolio-card">
+              <span class="project-tag">Derin Öğrenme</span>
+              <h3>DeepLearningArchive</h3>
+              <p>
+                ANN, CNN ve RNN öğrenme aşamalarını arşivlediğim notebook koleksiyonu. Fashion
+                classifier, kurs notları ve TensorFlow playground denemeleriyle derin öğrenme
+                pratiklerini düzenli tutuyor.
+              </p>
+              <ul class="project-stack" aria-label="DeepLearningArchive teknolojileri">
+                <li>Python</li>
+                <li>Jupyter</li>
+                <li>TensorFlow</li>
+                <li>ANN</li>
+                <li>CNN</li>
+                <li>RNN</li>
+              </ul>
+            </article>
+            <article class="portfolio-card">
+              <span class="project-tag">Yapay Zekâ · Podcast</span>
+              <h3>Aivesta</h3>
+              <p>
+                Fotoğrafı yapay zekâ destekli podcast'e dönüştüren mobil uygulama. Kullanıcı görsel
+                yüklediğinde Roboflow yapı tespiti yapıyor; RAG pipeline metin üretiyor ve ElevenLabs
+                ile ses dosyası oluşturulup uygulamaya dönüyor.
+              </p>
+              <ul class="project-stack" aria-label="Aivesta teknolojileri">
+                <li>Flutter</li>
+                <li>FastAPI</li>
+                <li>Roboflow</li>
+                <li>ChromaDB</li>
+                <li>GPT-4o-mini</li>
+                <li>ElevenLabs</li>
+              </ul>
+            </article>
+            <article class="portfolio-card">
+              <span class="project-tag">Otomasyon</span>
+              <h3>letterboxd-pull-diary-data</h3>
+              <p>
+                Verilen Letterboxd kullanıcı adının diary sayfalarını gezen Selenium aracı. İzlenen
+                filmleri, günlük kayıtlarını ve sayfalanmış geçmişi çekip metin dosyasına aktararak
+                analiz edilebilir veri haline getiriyor.
+              </p>
+              <ul class="project-stack" aria-label="Letterboxd teknolojileri">
+                <li>Python</li>
+                <li>Selenium</li>
+                <li>ChromeDriver</li>
+                <li>Web Scraping</li>
+                <li>TXT Export</li>
+              </ul>
+            </article>
+            <article class="portfolio-card">
+              <span class="project-tag">Satranç · Sosyal Medya</span>
+              <h3>SosyalPiyon</h3>
+              <p>
+                Satranç odaklı sosyal medya ve oyun platformu denemesi. PyQt arayüzü, kullanıcı
+                doğrulama, takip/yorum/beğeni tabloları, oyun sayfaları, MySQL şeması ve Stockfish
+                entegrasyonu gibi parçalar içeriyor.
+              </p>
+              <ul class="project-stack" aria-label="SosyalPiyon teknolojileri">
+                <li>Python</li>
+                <li>PyQt5</li>
+                <li>MySQL</li>
+                <li>python-chess</li>
+                <li>Stockfish</li>
+                <li>bcrypt</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section split" id="experience" aria-labelledby="experience-title">
+        <div class="section-label">Deneyim</div>
+        <div class="timeline-wrap">
+          <h2 id="experience-title">Deneyimlerim</h2>
+          <div class="timeline">
+            <article class="timeline-item">
+              <p class="meta">Ağustos 2025 - Eylül 2025 · İstanbul</p>
+              <h3>Software Developer Intern · Prodea Bilgi Teknolojileri</h3>
+              <p>
+                SAP ortamında temel ABAP programlama, üretim yönetimi süreçleri ve kurumsal veri
+                akışları üzerine çalıştım; ekip içi iletişim ve ofis adaptasyonu deneyimi kazandım.
+              </p>
+            </article>
+            <article class="timeline-item">
+              <p class="meta">Ağustos 2025 - Halen · İstanbul</p>
+              <h3>Gönüllülük · 1923 Vakfı</h3>
+              <p>
+                Hatay’daki köy okulları için yardım süreçlerine, gençlere yönelik kariyer
+                etkinliklerinin planlanmasına ve organizasyon çalışmalarına katkı sağlıyorum.
+              </p>
+            </article>
+            <article class="timeline-item">
+              <p class="meta">2023 - Halen · Trabzon</p>
+              <h3>Yönetim Bilişim Sistemleri · Karadeniz Teknik Üniversitesi</h3>
+              <p>
+                Yazılım geliştirme, veri bilimi, algoritmalar ve veri yapıları alanlarında akademik
+                ve proje tabanlı gelişimimi sürdürüyorum.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section skills-section" id="skills" aria-labelledby="skills-title">
+        <div class="section-label">Beceriler</div>
+        <div>
+          <h2 id="skills-title">Teknik araç kutusu</h2>
+          <div class="skill-grid">
+            <article>
+              <h3>Programlama</h3>
+              <p>Python, SQL, HTML/CSS, PHP, SAP/ABAP</p>
+            </article>
+            <article>
+              <h3>Veri bilimi</h3>
+              <p>NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, Gymnasium, Stable-Baselines3</p>
+            </article>
+            <article>
+              <h3>Veri toplama</h3>
+              <p>BeautifulSoup4, Selenium, Requests, JSON, CSV, TXT dosya yönetimi</p>
+            </article>
+            <article>
+              <h3>Veritabanı</h3>
+              <p>MySQL, Microsoft SQL Server, sorgu optimizasyonu, veri modelleme</p>
+            </article>
+            <article>
+              <h3>Yapay zekâ</h3>
+              <p>LangChain, RAG, LLM orkestrasyonu, makine öğrenmesi ve derin öğrenme temelleri</p>
+            </article>
+            <article>
+              <h3>Çalışma biçimi</h3>
+              <p>Git, GitHub, problem çözme, takım çalışması, Excel, Word, PowerPoint</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section certificates" aria-labelledby="certificates-title">
+        <div class="section-label">Sertifikalar</div>
+        <div>
+          <h2 id="certificates-title">Sürekli öğrenme hattı</h2>
+          <ul class="cert-list">
+            <li>The Data Analyst Course Complete Data Analyst Bootcamp</li>
+            <li>Python 2024 100 Günlük Programlama Kampı</li>
+            <li>SQL - MySQL for Data Analytics and Business Intelligence</li>
+            <li>Machine Learning ve Python: A'dan Z'ye Makine Öğrenmesi</li>
+            <li>Probability &amp; Statistics for Machine Learning &amp; Data Science</li>
+            <li>Yapay Zeka Uygulamaları: LangChain, RAG, LLM Orkestrasyonu</li>
+            <li>Deep Learning ve Python: A'dan Z'ye Derin Öğrenme</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div>
+          <p class="eyebrow">İletişim</p>
+          <h2 id="contact-title">Yeni projeler ve iş birlikleri için ulaşabilirsiniz.</h2>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:iletisim@bariscanceken.com">iletisim@bariscanceken.com</a>
+          <a href="tel:+905305792936">0 (530) 579 29 36</a>
+          <a href="https://github.com/bariscanceken" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/in/bcceken" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© 2026 Barışcan Çeken</span>
+      <a href="#top">Yukarı dön</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
